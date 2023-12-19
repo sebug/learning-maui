@@ -11,7 +11,7 @@ public partial class MainPage : ContentPage
 
 	private void OnCounterClicked(object sender, EventArgs e)
 	{
-		count += 5;
+		count += 6;
 
 		if (count == 1)
 			CounterBtn.Text = $"Clicked {count} time";
